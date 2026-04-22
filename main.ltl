@@ -1,0 +1,15 @@
+// ltl-ed25519/main.ltl
+//
+// Ed25519 sign + verify with RFC 8032 test vectors.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-ed25519 v0.1.0")
+    io::println("Ed25519 sign + verify with RFC 8032 test vectors.")
+    0
+}
